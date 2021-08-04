@@ -7,5 +7,47 @@
 }
 
 body {
+    font-family: Montserrat, sans-serif;
+    text-align: center
+}
 
+header {
+    background-color: #ff4c68;
+    height: 75px;
+}
+
+#logo {
+    color: #fff;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    float: left;
+    margin-left: 30px;  
+       
+}
+
+#nav-menu {
+    right: 10px;
+    text-align: right;
+}
+
+#logo, #nav-menu {
+    line-height: 75px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#nav-menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-menu a {
+    font-size: 120%;
+    float: right;
 }
