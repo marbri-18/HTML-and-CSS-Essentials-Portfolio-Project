@@ -11,6 +11,8 @@ body {
     text-align: center
 }
 
+/* logo and navigation*/
+
 header {
     background-color: #ff4c68;
     height: 75px;
@@ -50,4 +52,54 @@ a {
 #nav-menu a {
     font-size: 120%;
     float: right;
+}
+
+/* Banner heading */
+
+#heading-banner {
+    background-color: #ff4c68;
+    height: 300px;
+    position: relative;
+    padding: 15px 0 0 0;
+}
+
+#left-image {
+    height: 300px;
+    width: 25%;
+    float: left;
+    display: inline-block;   
+}
+
+#center-heading {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+#center-heading span {
+    font-family: Ubuntu, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+#center-heading h1 {
+    border: 5px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#right-image {
+    height: 300px;
+    width: 25%;
+    float: right;
+    display: inline-block;
+}
+
+img {
+    height: 250px;
 }
