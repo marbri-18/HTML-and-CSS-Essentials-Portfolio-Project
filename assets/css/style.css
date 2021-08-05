@@ -137,3 +137,33 @@ img {
     color: #fff;
     font-size: 1.2rem;
 }
+
+/* Feature section*/
+
+.feature-section {
+    position: relative;
+}
+
+.feature {
+    width: 33%;
+    height:300px;
+    padding-bottom: 10px;
+}
+
+#easy {
+    background-color: green;
+    float: left;
+    display: inline-block;
+}
+
+#elite {
+    background-color: yellow;
+    display: inline-block;
+    width: 34%;
+}
+
+#money-back {
+    background-color: blue;
+    float:right;
+    display: inline-block;
+}
