@@ -103,3 +103,37 @@ a {
 img {
     height: 250px;
 }
+
+/* Download section */
+
+#download {
+    height: 75px;
+    background-color: #ff4c68;
+    text-align: center;    
+}
+
+.download-button {
+    height: 40px;
+    width: 150px;
+    margin: 17px;
+    border-radius: 5px;
+    font-family: Ubuntu, sans-serif;    
+}
+
+.download-button i {
+    margin-right: 5px;
+}
+
+.google-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px outset white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.apple-button {
+    background-color: #000;
+    border: 1px outset #666;
+    color: #fff;
+    font-size: 1.2rem;
+}
