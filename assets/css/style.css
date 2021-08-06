@@ -141,12 +141,14 @@ img {
 /* Feature section*/
 
 .feature-section {
-    position: relative;
+    /* position: relative; */
+    display: block;
+    height: 450px;
 }
 
 .feature {
     width: 33%;
-    height:300px;
+    height: 450px;
     padding-bottom: 10px;
 }
 
@@ -170,7 +172,7 @@ img {
 
 .inner-feature {
     width: 50%;
-    height: 90%;
+    height: 275px;
     margin: 5% auto 30px auto;
     border: 5px #ef8172 double;
     border-radius: 10px;
