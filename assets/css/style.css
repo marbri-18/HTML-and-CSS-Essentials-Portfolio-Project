@@ -115,7 +115,7 @@ img {
 .download-button {
     height: 40px;
     width: 150px;
-    margin: 17px;
+    margin: 0px 10px 30px;
     border-radius: 5px;
     font-family: Ubuntu, sans-serif;    
 }
@@ -166,4 +166,32 @@ img {
     
     float:right;
     display: inline-block;
+}
+
+.inner-feature {
+    width: 50%;
+    height: 90%;
+    margin: 5% auto 30px auto;
+    border: 5px #ef8172 double;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: 5%;
+}
+
+.inner-feature i {
+    font-size: 4rem;
+    color: #ef8172;
+    margin-top: 15px;
+}
+
+.inner-feature h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 30px 0;
+   
+}
+
+.inner-feature p {
+    font-size: 1.5rem;
 }
