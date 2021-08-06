@@ -171,7 +171,7 @@ img {
 }
 
 .inner-feature {
-    width: 50%;
+    width: 60%;
     height: 275px;
     margin: 5% auto 30px auto;
     border: 5px #ef8172 double;
@@ -197,3 +197,31 @@ img {
 .inner-feature p {
     font-size: 1.5rem;
 }
+
+/* Pricing Section */
+
+.inner-price img {
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+ }
+ 
+ #pricing-section {
+     background-color: #ff4c68;
+     position: relative;
+ }
+ 
+ .pricing {
+     width: 24%;
+     display: inline-block;
+     
+ }
+ 
+ .inner-price {
+     width: 60%;
+     background-color: white;
+     margin: 20px auto 20px auto;
+     text-align: center;
+     padding: 15px 5px;
+ }
+ 
