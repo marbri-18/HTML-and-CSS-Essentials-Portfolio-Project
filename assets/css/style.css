@@ -151,19 +151,19 @@ img {
 }
 
 #easy {
-    background-color: green;
+    
     float: left;
     display: inline-block;
 }
 
 #elite {
-    background-color: yellow;
+    
     display: inline-block;
     width: 34%;
 }
 
 #money-back {
-    background-color: blue;
+    
     float:right;
     display: inline-block;
 }
