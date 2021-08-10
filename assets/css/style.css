@@ -284,4 +284,14 @@ a {
      color: #000;
      border: 1px outset #333;
  }
+
+ #footer-download h2 {
+     padding-top: 25px;
+     margin-bottom: 50px;
+     font-size: 3rem;
+ }
+
+ #footer-download button {
+     margin-bottom: 50px;
+ }
  
