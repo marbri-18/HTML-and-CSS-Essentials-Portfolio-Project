@@ -277,4 +277,11 @@ a {
      height: 45px;
      padding: 5px;
  }
+
+ /* Call to action Section */
+
+ #footer-download .google-button {
+     color: #000;
+     border: 1px outset #333;
+ }
  
