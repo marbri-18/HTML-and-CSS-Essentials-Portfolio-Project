@@ -299,7 +299,24 @@ a {
 
  footer {
      background-color: #ff4c68;
-
+     color: #fff;
+     
      }
+
+ footer>p {
+     padding-top: 20px;
+     font-size: 16px;
+ }    
+
+footer>p>a {
+    font-size: 16px;
+}
+
+.social-networks li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 10px;
+
+}
  
  
