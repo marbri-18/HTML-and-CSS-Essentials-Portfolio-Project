@@ -324,5 +324,26 @@ footer>p>a {
 .testimonial {
     background-color: #ff4c68;
 }
+
+figure {
+    border: 1px #ff4c68 solid;
+    padding: 5px;
+    
+}
+
+
+
+figcaption {
+    color: #fff;    
+    padding: 3px;
+    text-align: center;
+}
+
+.testimonial span {
+   font-style: italic;
+   color: #ccc;
+    
+}
+
  
  
