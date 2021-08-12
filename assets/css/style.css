@@ -392,27 +392,58 @@ figcaption {
 
 /*  Sign Up page*/
 
-#form-container {
-    position: relative;
-    height: 600px;
+#form-page-title {
+    font-size: 3rem;
+    padding: 20px 0 20px;
 }
 
-#sign-up-image {
+#form-container {
+    position: relative;
+    height: 750px;
+}
+
+#sign-up {
     
+    width: 40%;
+    height: 575px;
+    float: left;
+    background-color:#ef8172;
+    border: 3px #ff4c68 double;
+    border-radius: 25px;
+    margin-left: 5%;
+    
+}
+
+#sign-up-text {
+    text-align: center;
+
+}
+
+#register {
     width: 45%;
     float: left;
-    overflow: auto;
+    color:#fff;
+    font-size: 3rem;
+    margin: 15px;
+    line-height: 4rem;
 }
 
 #form-image {
     height: 550px;
-    margin: auto auto;
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
 }
 
 #sign-up-form {
     float: right;
-    width: 45%;
-    overflow: auto;
+    width: 40%;
+    height: 575px;
+    border: 3px #ff4c68 double;
+    border-radius: 25px;
+    margin-right: 5%;
+    
     
 }
 
