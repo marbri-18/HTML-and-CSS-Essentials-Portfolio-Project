@@ -30,10 +30,51 @@
             <img src="assets/images/wile-e-coyote_help.png" alt="iphone image with Wile E. Coyote holding help sign on screen.">
         </div>
         <div sign-up-form>
+            <p>Register your details below to get special deals tailored for you.</p>
             <form action="" method="POST">
+                <div>
+                    <label for="char_name">Character name*: </label>
+                    <input type="text" id="char_name" name="char-name" placeholder="your character name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email address: </label>
+                    <input type="email" id="email" name="email" placeholder="your Email address" required>
+                </div>
+
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="Choose a password" required>
+                </div>
+
+                <div>
+                    <label for="conf_password">Confirm password: </label>
+                    <input type="password" id="conf_password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
                 <fieldset>
-                    <legend>Register your details below</legend>
+                    <legend>Gender*</legend>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
                 </fieldset>
+
+                <fieldset>
+                    <legend>Toon type*</legend>
+                    <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">
+                    <label for="looney-tunes"><img src="assets/images/looney-tunes.jpg" width="25px" alt="Looney Tunes logo"> Looney Tunes</label>
+                    <input type="radio" name="toontype" id="hanna-barbera" value="hanna-barbera">
+                    <label for="hanna-barbera"> <img src="assets/images/hanna-barbera.jpg" width="25px" alt="Hanna Barbera logo"> Hanna Barbera </label>
+                    <input type="radio" name="toontype" id="fred-quimby" value="fred-quimby">
+                    <label for="fred-quimby"> <img src="assets/images/fred quimby.jpg" width="25px" alt="Fred Quimby logo"> Fred Quimby </label>
+                    <input type="radio" name="toontype" id="disney" value="disney">
+                    <label for="disney"> <img src="assets/images/disney_logo.png" width="25px" alt="Disney logo">Disney</label>
+                    <input type="radio" name="toontype" id="other" value="other">
+                    <label for="specify">Other Please specify</label>
+                    <input type="text" id="specify_toontype" name="specify_toontype">
+                </fieldset>
+                
             </form>
 
         </div>
