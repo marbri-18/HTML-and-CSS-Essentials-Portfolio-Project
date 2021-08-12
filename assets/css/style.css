@@ -390,5 +390,31 @@ figcaption {
     margin-bottom: 5px;
 }
 
+/*  Sign Up page*/
+
+#form-container {
+    position: relative;
+    height: 600px;
+}
+
+#sign-up-image {
+    
+    width: 45%;
+    float: left;
+    overflow: auto;
+}
+
+#form-image {
+    height: 550px;
+    margin: auto auto;
+}
+
+#sign-up-form {
+    float: right;
+    width: 45%;
+    overflow: auto;
+    
+}
+
  
  
