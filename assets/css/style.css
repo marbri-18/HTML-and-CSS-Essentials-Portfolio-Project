@@ -443,9 +443,36 @@ figcaption {
     border: 3px #ff4c68 double;
     border-radius: 25px;
     margin-right: 5%;
+    padding: 20px 10px;
     
     
 }
 
- 
+input {
+    font-size: 120%;
+    color: #222;
+    background-color: #f9f9f9;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+form > div > input {
+    width: 60%;   
+}
+
+form > div {
+    width: 90%;
+    text-align: left;
+    
+
+}
+
+ form > div > label {
+     float: left;
+     width: 200px;
+     text-align: right;
+     margin-right: 20px;
+ }
  
