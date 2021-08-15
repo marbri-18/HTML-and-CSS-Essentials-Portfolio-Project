@@ -62,28 +62,35 @@
                     <legend>Gender*</legend>
                     <input type="radio" name="gender" id="male" value="male">
                     <label for="male">Male</label>
+                    <br>
                     <input type="radio" name="gender" id="female" value="female">
                     <label for="female">Female</label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Toon type*</legend>
-                    <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">
-                    <label for="looney-tunes"><img src="assets/images/looney-tunes.jpg" width="25px" alt="Looney Tunes logo"> Looney Tunes</label>
+                    <label for="looney-tunes">Looney Tunes</label>
+                    <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">                    
+                    <br>
+                    <label for="hanna-barbera">Hanna Barbera</label>
                     <input type="radio" name="toontype" id="hanna-barbera" value="hanna-barbera">
-                    <label for="hanna-barbera"> <img src="assets/images/hanna-barbera.jpg" width="25px" alt="Hanna Barbera logo"> Hanna Barbera </label>
+                    <br>
+                    <label for="fred-quimby">Fred Quimby</label>
                     <input type="radio" name="toontype" id="fred-quimby" value="fred-quimby">
-                    <label for="fred-quimby"> <img src="assets/images/fred quimby.jpg" width="25px" alt="Fred Quimby logo"> Fred Quimby </label>
+                    <br>
+                    <label for="disney">Disney</label>
                     <input type="radio" name="toontype" id="disney" value="disney">
-                    <label for="disney"> <img src="assets/images/disney_logo.png" width="25px" alt="Disney logo">Disney</label>
+                    <br>
+                    <label for="other">Other</label>
                     <input type="radio" name="toontype" id="other" value="other">
-                    <label for="specify">Other Please specify</label>
+                    <br>
+                    <label for="specify_toontype">Please specify: </label>
                     <input type="text" id="specify_toontype" name="specify_toontype">
                 </fieldset>
                 <input type="checkbox" name="tandc" id="terms">
                 <label for="terms">I have read and agree to the terms and conditions*</label><br>
                 <p>* = must be completed.</p>
-                <button>Register</button>
+                <button id="sign-up-button">Sign Up</button>
                 
             </form>
 
