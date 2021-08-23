@@ -550,6 +550,13 @@ form > div {
      border-radius: 10px;
      padding: 8px;
      margin-top: 20px;
+     border: 2px outset #ef8172;
+ }
+
+ #sign-up-button:hover {
+     background-color:#ef8172;
+     border: 4px outset #666;
+     
  }
 
 
