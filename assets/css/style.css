@@ -14,8 +14,8 @@ body {
 /* logo and navigation*/
 
 header {
-    background-color: #ff4c68;
-    height: 75px;
+    background-color: #ff4c68;   
+       
 }
 
 #logo {
@@ -40,18 +40,33 @@ header {
 a {
     text-decoration: none;
     font-size: 2rem;
-    color: #fff;
+    color: #ddd;
 }
 
 #nav-menu li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    margin: 15px 30px 15px 0px;
+    
+    
 }
 
 #nav-menu a {
-    font-size: 120%;
+    font-size: 140%;
     float: right;
+    padding: 5px;
+}
+
+#nav-menu a:hover {
+    font-size: 150%;
+    color: #fff;
+    
+}
+
+.current {
+    background-color: #ef8172;
+    font-weight: bold;
+    color: #fff;
 }
 
 /* Banner heading */
@@ -59,7 +74,7 @@ a {
 #heading-banner {
     background-color: #ff4c68;    
     position: relative;
-    padding: 15px 0 0 0;
+    padding: 10px 0 10px 0;
 
 }
 
@@ -100,11 +115,11 @@ a {
 }
 
 #roger_image {
-    width: 75%;
+    width: 90%;
 }
 
 #bugs-image {
-    width: 60%;
+    width: 95%;
 }
 
 /* Download section */
@@ -141,6 +156,18 @@ a {
     font-size: 1.2rem;
 }
 
+.google-button:hover {
+    background-color: #aaa;
+    color: #000;
+}
+
+
+
+.apple-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 /* Feature section*/
 
 .feature-section {
@@ -174,7 +201,7 @@ a {
 
 #money-back {
     
-    float:right;
+    float: right;
     display: inline-block;
 }
 
@@ -266,9 +293,9 @@ a {
      padding: 50px 0;
  }
 
- .inner-price button {
+ .signup-button {
      width: 85%;
-     background-color: #222;
+     background-color: #000;
      color: white;
      font-size: 1.5rem;
      text-align: center;
@@ -276,6 +303,12 @@ a {
      border: 2px outset #444;
      height: 45px;
      padding: 5px;
+ }
+
+ .signup-button:hover {
+     background-color: #333;
+     border: 4px outset #666;
+
  }
 
  /* Call to action Section */
@@ -303,13 +336,18 @@ a {
      
      }
 
- footer>p {
+ footer > p {
      padding-top: 20px;
      font-size: 16px;
  }    
 
-footer>p>a {
+.bolshiepig-link {
     font-size: 16px;
+}
+
+.bolshiepig-link:hover {
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .social-networks li {
@@ -317,6 +355,11 @@ footer>p>a {
     text-align: center;
     padding: 15px 10px;
 
+}
+
+.social-media-link:hover {
+color: #fff;
+font-size: 2.2rem;
 }
 
 /* gallery*/
