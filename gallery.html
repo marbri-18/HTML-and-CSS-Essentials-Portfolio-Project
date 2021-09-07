@@ -11,15 +11,19 @@
     <title>Tintoon</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1 id="logo">Tintoon</h1></a>
-        <nav>
-            <ul id="nav-menu">
-                <li><a href="gallery.html" class="current">Gallery</a></li>
-                <li><a href="index.html">Home</a></li>                
-                <li><a href="sign_up.html">Sign Up</a></li>
-            </ul>
-        </nav>
+    <header class="topnav" id="myTopnav">
+        <a href="index.html" id="logo">Tintoon</a>
+
+<div id="myLinks">
+   <a href="index.html">Home</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="sign_up.html">Sign Up</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+  
     </header>
     <h1 id="gallery-heading">Gallery</h1>
     <section id="figures">
@@ -102,3 +106,4 @@
      </footer>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/672a710788.js" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
