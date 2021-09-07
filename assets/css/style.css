@@ -168,17 +168,54 @@ a {
     color: #000;
 }
 
-/* Feature section*/
+/* Feature section Heading*/
 
-.feature-section {
-    /* position: relative; */
-    display: block;
-    height: 450px;
+#feature-section-heading h2  {  
+    
+    font-size: 3rem;
+    
 }
 
+#feature-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex:200px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.feature {
+    border: 5px #ef8172 double;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: 5%;
+    margin: 50px;
+    width: 150px;
+    height: 300px;
+}
+
+.feature i {
+    font-size: 4rem;
+    color: #ef8172;
+    margin-top: 15px;
+}
+
+.feature h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 30px 0; 
+}
+
+.feature p {
+    font-size: 1.5rem;
+}
+
+/*
 #feature-section h2 {
-    font-size: 3rem;
-    padding: 25px;
+    
 }
 
 .feature {
@@ -231,7 +268,7 @@ a {
 
 .inner-feature p {
     font-size: 1.5rem;
-}
+} */
 
 /* Pricing Section */
 
@@ -569,23 +606,9 @@ form > div {
      
  }
 
- @media screen and (max-width: 1200px) {
-
-    #center-heading h1 {
-        font-size: 36px;
-    }
-
-    .inner-feature p {
-        font-size: 1.2rem;
-    }
-
-    .inner-price {
-        height: 655px;
-    }
-
-    .price-plan-name {
-        height: 90px;
-    }
+ @media screen and (max-width: 900px) {
+    
+   
 
      
  }
