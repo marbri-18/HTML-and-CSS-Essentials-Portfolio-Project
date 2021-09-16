@@ -491,7 +491,7 @@ font-size: 2.2rem;
 #figures {
     clear: both;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 20px;
 }
 
 
@@ -503,7 +503,7 @@ font-size: 2.2rem;
 figure {
     border: 3px #ff4c68 double;
     border-radius: 10px;
-   margin: 5px;
+   margin: 10px 5px 20px 0;
    display: inline-block;
     
 }
@@ -512,7 +512,7 @@ figure {
 
 figcaption {
     color: #fff;
-    font-size: 1.5rem;    
+    font-size: 1.3rem;    
     padding: 3px;
     text-align: center;
     border-radius: 5px;
@@ -527,7 +527,7 @@ figcaption {
 
 .portrait {
    
-    width: 340px;
+    width: 240px;
     
 
 }
@@ -540,7 +540,7 @@ figcaption {
 }
 
 .landscape {
-    width: 400px;
+    width: 300px;
     /* height: 410px; */
     
 }
@@ -550,6 +550,10 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+}
+
+figure img {
+    width: 95%;
 }
 
 /*  Sign Up page*/
@@ -864,4 +868,31 @@ form > div {
 /* Banner section media queries */
   @media screen and (max-width: 900px) {
 
+  }
+
+  /* gallery page media queries */
+
+  @media screen and (max-width: 1275px) {
+    #figures {
+        clear: both;
+        column-count: 3;
+        column-gap: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 975px) {
+      #figures {
+        clear: both;
+        column-count: 2;
+        column-gap: 10px; 
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+    #figures {
+        clear: both;
+        column-count: 1;
+        column-gap: 10px; 
+      }
   }
