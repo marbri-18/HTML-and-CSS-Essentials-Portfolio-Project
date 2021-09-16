@@ -771,27 +771,35 @@ input {
 }
 
 form {
-    padding: 3% 0;
+    padding: 1% 0;
+    text-align: center;
 }
 
 
 
 form > div > input {
-    width: 60%;   
+    
+    margin: auto auto;
+     
+}
+
+form > div > label {
+    text-align: right;
+    padding-right: 5px;
 }
 
 form > div {
-    width: 90%;
-    text-align: left;
+    width: 95%;
+    padding: 3px 5px;
     
 
 }
 
  form > div > label {
-     float: left;
+     
      width: 200px;
-     text-align: right;
-     margin-right: 20px;
+    /* text-align: right; */
+     margin-right: 5px;
  }
 
  fieldset {
@@ -895,4 +903,38 @@ form > div {
         column-count: 1;
         column-gap: 10px; 
       }
+  }
+
+  @media screen and (max-width: 1300px) {
+#main-container {
+    text-align: center;
+}
+
+      #poster-container {
+
+width: 95%;
+      }
+
+      #form-container {
+          
+          width: 95%;
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+    form > div {
+        width: 95%;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #banner-text-container {
+width: 95%
+    }
+
+    #image-container {
+        width: 95%
+
+    }
   }
