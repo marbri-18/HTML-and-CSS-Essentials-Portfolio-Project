@@ -12,10 +12,8 @@ body {
 }
 
 /* logo and navigation*/
-
 nav {
     background-color: #ff4c68;   
-       
 }
 
 #logo {
@@ -24,9 +22,7 @@ nav {
     font-weight: bold;
     font-size: 4rem;
     float: left;
-    margin-left: 30px;  
-       
-}
+    }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -40,9 +36,9 @@ nav {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 30px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   
   /* Change the color of links on hover */
@@ -62,49 +58,7 @@ nav {
     display: none;
   }
 
-/* #nav-menu {
-    right: 10px;
-    text-align: right;
-}
-
-#logo, #nav-menu {
-    line-height: 75px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 2rem;
-    color: #ddd;
-}
-
-#nav-menu li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 15px 30px 15px 0px;
-    
-    
-}
-
-#nav-menu a {
-    font-size: 140%;
-    float: right;
-    padding: 5px;
-}
-
-#nav-menu a:hover {
-    font-size: 150%;
-    color: #fff;
-    
-}
-
-.current {
-    background-color: #ef8172;
-    font-weight: bold;
-    color: #fff;
-} */
-
 /* Banner heading */
-
 #heading-banner {
     background-color: #ff4c68;    
     position: relative;
@@ -113,12 +67,10 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 
 #left-image {
     flex: 1 auto auto;
-   /* flex-grow: 1; */
 }
 
 #center-heading {
@@ -132,16 +84,15 @@ a {
     flex-shrink: 5;
 }
 
-#center-heading span {
+#center-heading > h1 > span {
     font-family: Ubuntu, sans-serif;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bolder;
     letter-spacing: 4px;
 }
 
 #right-image {
     flex: 1 auto auto;
-    /* flex-grow: 1; */
 }
 
 #roger_image {
@@ -151,50 +102,6 @@ a {
 #bugs-image {
     width: 95%;
 }
-
-/* #left-image {
-    
-    width: 25%;
-    float: left;
-    display: inline-block;
-
-}
-
-#center-heading {
-    color: #fff;
-    font-size: 3rem;
-    text-align: center;    
-    width: 49%;
-    display: inline-block;
-    letter-spacing: 3px;
-}
-
-#center-heading span {
-    font-family: Ubuntu, sans-serif;
-    font-size: 5rem;
-    font-weight: bolder;
-    letter-spacing: 4px;
-}
-
-#center-heading h1 {
-    border: 5px solid #fff;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#right-image {
-   width: 25%;    
-    float: right;
-    display: inline-block;
-}
-
-#roger_image {
-    width: 90%;
-}
-
-#bugs-image {
-    width: 95%;
-} */
 
 /* Download section */
 
@@ -235,19 +142,15 @@ a {
     color: #000;
 }
 
-
-
 .apple-button:hover {
     background-color: #fff;
     color: #000;
 }
 
 /* Feature section Heading*/
-
 #feature-section-heading h2  {  
     padding: 40px;
     font-size: 3rem;
-    
 }
 
 #feature-section-container {
@@ -256,8 +159,6 @@ a {
     flex:200px;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .feature {
@@ -265,16 +166,15 @@ a {
     border-radius: 10px;
     font-family: Montserrat, sans-serif;
     text-align: center;
-   padding:  2% 5%;
-   margin: 50px;
+    padding:  2% 5%;
+    margin: 50px;
     width: 150px;
-   height: 350px;
+    height: 350px;
 }
 
 .feature i {
     font-size: 4rem;
     color: #ef8172;
-   /* margin-top: 15px; */
 }
 
 .feature h3 {
@@ -287,85 +187,21 @@ a {
     font-size: 1.5rem;
 }
 
-/*
-#feature-section h2 {
-    
-}
-
-.feature {
-    width: 33%;
-    height: 450px;
-    padding-bottom: 10px;
-}
-
-#easy {
-    
-    float: left;
-    display: inline-block;
-}
-
-#elite {
-    
-    display: inline-block;
-    width: 34%;
-}
-
-#money-back {
-    
-    float: right;
-    display: inline-block;
-}
-
-.inner-feature {
-    width: 60%;
-    height: 275px;
-    margin: 5% auto 30px auto;
-    border: 5px #ef8172 double;
-    border-radius: 10px;
-    font-family: Montserrat, sans-serif;
-    text-align: center;
-    padding: 5%;
-}
-
-.inner-feature i {
-    font-size: 4rem;
-    color: #ef8172;
-    margin-top: 15px;
-}
-
-.inner-feature h3 {
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin: 30px 0;
-   
-}
-
-.inner-feature p {
-    font-size: 1.5rem;
-} */
-
 /* Pricing Section */
-
-
- 
  #pricing-section-heading {
      background-color: #ff4c68;
-     
  }
 
  #pricing-section-heading h2 {
      font-size: 3rem;
      color: #fff;
      padding: 50px 10px;
-     
-     
  }
 
  #pricing-container {
      display: flex;     
      flex-wrap: wrap;
      flex: 200px;
-    
      align-items: center;
      justify-content: center;
      background-color:#ff4c68;
@@ -375,7 +211,6 @@ a {
  .pricing-article {
      margin-bottom: 20px;
  }
- 
  
  .inner-price {
      width: 75%;
@@ -403,7 +238,6 @@ a {
 
  .inner-price ul {
      line-height: 1.5rem;
-    
      margin-bottom: 25px;
  }
 
@@ -415,7 +249,6 @@ a {
 
  .inner-price .monthly-price {
      font-size: 2rem;
-     /* padding: 50px 0; */
  }
 
  
@@ -426,7 +259,6 @@ a {
      color: white;
      font-size: 1.5rem;
      text-align: center;
-     
      vertical-align: text-bottom;
      border-radius: 10px;
      border: 2px outset #444;
@@ -437,11 +269,9 @@ a {
  .signup-button:hover {
      background-color: #333;
      border: 4px outset #666;
-
  }
 
  /* Call to action Section */
-
  #footer-download .google-button {
      color: #000;
      border: 1px outset #333;
@@ -458,11 +288,9 @@ a {
  }
 
  /* Footer section */
-
  footer {
      background-color: #ff4c68;
      color: #fff;
-     
      }
 
  footer > p {
@@ -483,16 +311,14 @@ a {
     display: inline-block;
     text-align: center;
     padding: 15px 10px;
-
 }
 
 .social-media-link:hover {
-color: #fff;
-font-size: 2.2rem;
+    color: #fff;
+    font-size: 2.2rem;
 }
 
 /* gallery*/
-
 #gallery-heading {
     font-size: 3rem;
     margin: 20px 0 20px;
@@ -504,8 +330,6 @@ font-size: 2.2rem;
     column-gap: 20px;
 }
 
-
-
 .testimonial {
     background-color: #ff4c68;
 }
@@ -513,12 +337,9 @@ font-size: 2.2rem;
 figure {
     border: 3px #ff4c68 double;
     border-radius: 10px;
-   margin: 10px 5px 20px 0;
-   display: inline-block;
-    
+    margin: 10px 5px 20px 0;
+    display: inline-block;
 }
-
-
 
 figcaption {
     color: #fff;
@@ -531,15 +352,10 @@ figcaption {
 .testimonial span {
    font-style: italic;
    font-size: 1.2rem;
-    
 }
 
-
 .portrait {
-   
     width: 240px;
-    
-
 }
 
 .portrait figcaption {
@@ -551,8 +367,6 @@ figcaption {
 
 .landscape {
     width: 300px;
-    /* height: 410px; */
-    
 }
 
 .landscape figcaption {
@@ -567,134 +381,6 @@ figure img {
 }
 
 /*  Sign Up page*/
-/*
-#form-page-title {
-    font-size: 3rem;
-    padding: 20px 0 20px;
-}
-
-#form-container {
-    position: relative;
-    height: 825px;
-}
-
-#sign-up {
-    
-    width: 40%;
-    height: 650px;
-    float: left;
-    background-color:#ef8172;
-    border: 3px #ff4c68 double;
-    border-radius: 25px;
-    margin-left: 5%;
-    padding-top: 20px;
-        
-}
-
-#sign-up-text {
-    text-align: center;
-    
-
-}
-
-#register {
-    width: 45%;
-    float: left;
-    color:#fff;
-    font-size: 3rem;
-    margin: 15px;
-    line-height: 4rem;
-}
-
-#form-image {
-    height: 600px;
-    width: 45%;
-    float: right;
-    margin-right: 10px;
-       
-    
-}
-
-#sign-up-form {
-    float: right;
-    width: 40%;
-    height: 625px;
-    border: 3px #ff4c68 double;
-    border-radius: 25px;
-    margin-right: 5%;
-    padding: 20px 10px;
-    
-    
-}
-
-input {
-    font-size: 120%;
-    color: #222;
-    background-color: #f9f9f9;
-    border: 1px solid #444;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-form > div > input {
-    width: 60%;   
-}
-
-form > div {
-    width: 90%;
-    text-align: left;
-    
-
-}
-
- form > div > label {
-     float: left;
-     width: 200px;
-     text-align: right;
-     margin-right: 20px;
- }
-
- fieldset {
-     border: 1px solid #ff4c68;
-     text-align: left;
-     width: 75%;
-     margin: 25px auto;
-     border-radius: 20px;
-
- }
-
- fieldset > label {
-     float: left;
-     width: 200px;
-     text-align: right;
-     margin-right: 20px;
-
- }
-
- legend {
-     margin-left: 10%;
- }
-
- #sign-up-button {
-     color: #fff;
-     font-size: 1.6rem;
-     background-color: #ff4c68;
-     border-radius: 10px;
-     padding: 8px;
-     margin-top: 20px;
-     border: 2px outset #ef8172;
- }
-
- #sign-up-button:hover {
-     background-color:#ef8172;
-     border: 4px outset #666;
-     
- }
- */
-
- 
-
  #sign-up-heading {
     font-size: 3rem;
     padding: 20px 0 20px;
@@ -702,25 +388,19 @@ form > div {
 
  #main-container {
     width: 100%;
-    
-    
     text-align: center;
     padding: 15px 0;
 }
 
 #poster-container {
-    
     width: 49%;
     background-color: #ef8172;
     display: inline-block;
-    /* text-align: center; */
     border: 3px #ff4c68 double;
     border-radius: 25px;
 }
 
-
 #form-container {
-    
     width: 49%;
     background-color: #ef8172;
     border: 3px #ff4c68 double;
@@ -728,34 +408,25 @@ form > div {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-     
-    
 }
 
 #banner-text-container {
-    
     width: 45%;    
     float: left;
-   padding: 2%;
-    /* padding-top: 20px; */    
-    
+    padding: 2%;
 }
 
 #register {
     width: 90%;
     color: #fff;
-   text-shadow: 1px 1px #000;
-    /* margin: auto auto; */
+    text-shadow: 1px 1px #000;
     font-size: 3rem;    
     line-height: 4rem;
-    
 }
 
 #image-container {
     width: 45%;
     float: right;
-    /* margin-right: 10px; */
-    /* display: inline-block; */
     padding: 2%;
 }
 
@@ -764,9 +435,7 @@ form > div {
 }
 
 #sign-up-form {
-    
     width: 95%;
-    
     margin: auto;
 }
 
@@ -785,14 +454,9 @@ form {
     text-align: center;
 }
 
-
-
 .form-input > input {
-    
     margin: auto auto;
     width: 300px
-    
-     
 }
 
 .form-input {
@@ -804,16 +468,12 @@ form {
     text-align: right;
     padding-right: 5px;
     width: 200px;
-    /*float: left; */
 }
 
 form > div {
     width: 95%;
     padding: 3px 5px;
-    
-
 }
-
 
  fieldset {
      border: 1px solid #fff;
@@ -821,7 +481,6 @@ form > div {
      width: 75%;
      margin: 40px auto;
      border-radius: 20px;
-
  }
 
  fieldset > label {
@@ -829,7 +488,6 @@ form > div {
      width: 200px;
      text-align: right;
      margin-right: 20px;
-
  }
 
  legend {
@@ -849,23 +507,39 @@ form > div {
  #sign-up-button:hover {
      background-color:#ef8172;
      border: 4px outset #666;
-     
  }
 
+ /* Media Queries */
+ /* navigation bar media queries */
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 900px) {
+ @media screen and (max-width: 750px){
+     .topnav a {
+        padding: 14px 10px;
+        font-size: 1.3rem;
+     }
+
+     #logo {
+         font-size: 3.5rem;
+     }
+ }
+
+ /* When the screen is less than 600 pixels wide, Show the hamburger icon and hide links (except brand logo) */
+@media screen and (max-width: 600px) {
    .topnav a {
        display: none;
     }
 
+    .topnav #logo {
+        display: inline-block;
+    }
+
     .topnav a.icon {
       float: right;
-      display: block;
+      display: inline-block;
+      font-size: 2.5rem;
     }
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 900px) {
     .topnav.responsive     {
         position: relative;
@@ -873,7 +547,6 @@ form > div {
 
     .topnav.responsive a.icon {
       float: right;
-      /* position: absolute; */
       right: 0;
       top: 0;
     }
@@ -886,20 +559,13 @@ form > div {
     }
   }
 
-/* Banner section media queries */
-  @media screen and (max-width: 900px) {
-
-  }
-
   /* gallery page media queries */
-
   @media screen and (max-width: 1275px) {
     #testimonials-container {
         clear: both;
         column-count: 3;
         column-gap: 10px;
     }
-
   }
 
   @media screen and (max-width: 975px) {
@@ -918,20 +584,19 @@ form > div {
       }
   }
 
+  /* Sign Up page media queries */
   @media screen and (max-width: 1300px) {
-#main-container {
-    text-align: center;
-}
+    #main-container {
+        text-align: center;
+    }
 
-      #poster-container {
+    #poster-container {
+        width: 95%;
+    }
 
-width: 95%;
-      }
-
-      #form-container {
-          
-          width: 95%;
-      }
+    #form-container {
+        width: 95%;
+    }
   }
 
   @media screen and (max-width: 900px) {
@@ -941,20 +606,19 @@ width: 95%;
     }
   }
 
-  @media screen and (max-width: 600px) {
-    #banner-text-container {
-width: 95%
-    }
-
-    #image-container {
-        width: 95%
-
-    }
-  }
-
   @media screen and (max-width: 750px) {
     .form-input > label {
         text-align: left;
         padding-left: 0
     } 
+  }
+
+  @media screen and (max-width: 600px) {
+    #banner-text-container {
+        width: 95%
+    }
+
+    #image-container {
+        width: 95%
+    }
   }
