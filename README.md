@@ -56,6 +56,15 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <h4>Sign Up Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png">
     <p></p>
+  
+  <h3>Testing</h3>
+    <p></p>
+    
+    <h3>Validation</h3>
+    
+    <h3>Bugs</h3>
+    
+    <h3>Unfixed Bugs</h3>
    
     
   
