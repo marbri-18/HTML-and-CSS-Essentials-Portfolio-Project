@@ -44,6 +44,10 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <h4>Pricing plans section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/pricing_section.png">
      <p> The pricing plan section tells the user of the range of plans and prices and what each plan delivers. This section also utilizes the flexbox CSS styling to ensure it is responsive to screen width.</p>
+  
+  <h4>Download section</h4>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
+      <p>The download section offers the user another opportunity to download the Tintoon app before leaving the homepage.</P>  
    
     
   
