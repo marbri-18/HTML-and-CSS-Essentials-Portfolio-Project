@@ -17,3 +17,8 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
 <h4>Homepage (index.html)<h4>
   ![image](https://user-images.githubusercontent.com/51637096/134405273-4aed8825-d7b8-43a7-808f-c1cf48c4c2ed.png)
 
+  <h4>Gallery Page (gallery.html)</h4>
+  
+  
+  <h4>Sign Up page (sign_up.html</h4>
+  
