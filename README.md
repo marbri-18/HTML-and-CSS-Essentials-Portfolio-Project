@@ -33,26 +33,29 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <p></p>
   
   <h4>Homepage</h4>
-  <div>
+  
   <dl>
     <dt>Banner header section</dt>
     <dd>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/banner_heading_section.png">
+      the banner heading section displays the heading which alerts the user to what they can get from the Tintoon app. This is enclosed on either side by two images of cartoon       characters portraying in love poses. The user is given an immediate opportunity to download the app since this is the major objective of the site. This section is styled using CSS flexbox. As screen width is reduced the articles change from left right alignment to top bottom alignment.
     </dd>
     <dt>Features section</dt>
     <dd>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/feature_section.png">
+      The features section informs the user of three key reasons why they should use the Tintoon app. This section also utilizes the flexbox CSS styling to ensure it is responsive to screen width.
     </dd>
     <dt>Pricing plans section</dt>
     <dd>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/pricing_section.png">
+      The pricing plan section tells the user of the range of plans and prices and what each plan delivers.
     </dd>
     <dt>Download section</dt>
     <dd>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
     </dd>
   </dl>
-  </div>
+  
     
     <h4>Gallery Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
