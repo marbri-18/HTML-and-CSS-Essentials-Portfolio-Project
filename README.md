@@ -47,7 +47,11 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   <h4>Download section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
-      <p>The download section offers the user another opportunity to download the Tintoon app before leaving the homepage.</P>  
+      <p>The download section offers the user another opportunity to download the Tintoon app before leaving the homepage.</P>
+  
+  <h4>Gallery Page</h4>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
+    <p></p>
    
     
   
