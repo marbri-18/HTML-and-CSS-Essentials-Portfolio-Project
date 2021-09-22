@@ -245,7 +245,7 @@ a {
 /* Feature section Heading*/
 
 #feature-section-heading h2  {  
-    
+    padding: 40px;
     font-size: 3rem;
     
 }
@@ -356,7 +356,8 @@ a {
  #pricing-section-heading h2 {
      font-size: 3rem;
      color: #fff;
-     padding: 40px 0;
+     padding: 50px 10px;
+     
      
  }
 
