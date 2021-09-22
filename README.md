@@ -15,7 +15,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
 <h3>Screenshots</h3>
 
 <h4>Homepage (index.html)<h4>
-  <img src="">
+  <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/Homepage_responsive.png">
 
   <h4>Gallery Page (gallery.html)</h4>
   <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/gallery_responsive.png">
