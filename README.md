@@ -27,10 +27,10 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   <h4>Navigation Bar</h4>
   <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/navbar.png">
-  <p></p>
+  <p>The Navigation bar includes the brand title of the website - Tintoon - which links to the homepage. There are further links aligned to the right to the Home Page again, the Gallery page and the Sign Up page. As the screen width is reduced the links aligned right are replaced by a hamburger icon, When clicked on the hamburger menu expands to display a drpdown menu of the three right aligned links and the hamburger icon. Clicking on the hamburger icon again rolls the dropdown menu back up. The Tintoon brand logo displays at all screen widths. The Navigation bar displays across the full width of all three of the website pages.</p>
   
   <h4>Footer</h4>
-  <p></p>
+  <p>The footer displays the copyright info for the website. links to the Bolshie Pig website (The website creators presonal website). A contact E mail link and social media links via the social media logo icons. The footer displays across the full width of the screen on all three website pages.</p>
   
   <h4>Homepage</h4>
   
