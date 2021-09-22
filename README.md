@@ -26,6 +26,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <h3>Features</h3>
   
   <h4>Navigation Bar</h4>
+  <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/navbar.png">
   <p></p>
   
   <h4>Footer</h4>
