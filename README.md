@@ -34,28 +34,22 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   <h4>Homepage</h4>
   
-  <dl>
-    <dt>Banner header section</dt>
-    <dd>
+  
+    <h4>Banner header section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/banner_heading_section.png">
      <p> the banner heading section displays the heading which alerts the user to what they can get from the Tintoon app. This is enclosed on either side by two images of cartoon       characters portraying in love poses. The user is given an immediate opportunity to download the app since this is the major objective of the site. This section is styled using CSS flexbox. As screen width is reduced the articles change from left right alignment to top bottom alignment. </p>
-    </dd>
-    <dt>Features section</dt>
-    <dd>
+   
+    <h4>Features section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/feature_section.png">
      <p> The features section informs the user of three key reasons why they should use the Tintoon app. This section also utilizes the flexbox CSS styling to ensure it is responsive to screen width. </p>
-    </dd>
-    <dt>Pricing plans section</dt>
-    <dd>
+   
+    <h4>Pricing plans section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/pricing_section.png">
      <p> The pricing plan section tells the user of the range of plans and prices and what each plan delivers. This section also utilizes the flexbox CSS styling to ensure it is responsive to screen width.</p>
-    </dd>
-    <dt>Download section</dt>
-    <dd>
+    
+    <h4>Download section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
-    </dd>
-  </dl>
-  
+      <p>The download section offers the user another opportunity to download the Tintoon app before leaving the homepage.</P>  
     
     <h4>Gallery Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
