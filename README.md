@@ -39,17 +39,25 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/banner_heading_section.png">
     </dd>
     <dt>Features section</dt>
-    <dd></dd>
+    <dd>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/feature_section.png">
+    </dd>
     <dt>Pricing plans section</dt>
-    <dd></dd>
+    <dd>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/pricing_section.png">
+    </dd>
     <dt>Download section</dt>
-    <dd></dd>
+    <dd>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
+    </dd>
   </dl>
     
     <h4>Gallery Page</h4>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
     <p></p>
     
     <h4>Sign Up Page</h4>
+    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png">
     <p></p>
     
     <h3>Testing</h3>
