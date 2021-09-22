@@ -33,6 +33,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <p></p>
   
   <h4>Homepage</h4>
+  <div>
   <dl>
     <dt>Banner header section</dt>
     <dd>
@@ -51,6 +52,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/download_section.png">
     </dd>
   </dl>
+  </div>
     
     <h4>Gallery Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
