@@ -11,3 +11,9 @@ Portfolio project for Code Institute course: Diploma in Software Development (E-
 <p>
 The Tintoon web-site is based on a walkthrough project I completed in 2021 for a Udemy course I was learning on. The Course was called 2021 Web Development Bootcamp and was facilitated by Angela Yu of the App Brewery. The original walkthrough project was called Tindog and was similarly based on the Tinder App. The Tindog project was a single landing page with four sections. It was a project for learning the use of Bootstrap. At the time of completing the project, I exchanged the Dog dating theme for a Cartoon Character dating theme. For completing the HTML and CSS Essentials Portfolio Project 1, I thought it would be a valuable learning outcome for me to recreate the Tintoon website while not relying on Bootstrap but to create the visual appearance using only CSS. I have also extended the site to three pages including a Gallery and Sign Up page. The digital illustrations of well known Warner Brothers cartoon characters were all created and formatted for use on the website by myself using Affinity Designer. 
 </p>
+
+<h3>Screenshots</h3>
+
+<h4>Homepage (index.html)<h4>
+  ![image](https://user-images.githubusercontent.com/51637096/134405273-4aed8825-d7b8-43a7-808f-c1cf48c4c2ed.png)
+
