@@ -118,26 +118,30 @@ a {
 
 #left-image {
     flex: 1 auto auto;
+   /* flex-grow: 1; */
 }
 
 #center-heading {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     letter-spacing: 3px;
-    flex: 2 auto auto;
-    flex-basis: 900px;
+    flex: 1 auto auto;
+    flex-basis: 600px;
+    flex-grow: 10;
+    flex-shrink: 5;
 }
 
 #center-heading span {
     font-family: Ubuntu, sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bolder;
     letter-spacing: 4px;
 }
 
 #right-image {
     flex: 1 auto auto;
+    /* flex-grow: 1; */
 }
 
 #roger_image {
@@ -261,16 +265,16 @@ a {
     border-radius: 10px;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    padding: 5%;
-    margin: 50px;
+   padding:  2% 5%;
+   margin: 50px;
     width: 150px;
-    height: 300px;
+   height: 350px;
 }
 
 .feature i {
     font-size: 4rem;
     color: #ef8172;
-    margin-top: 15px;
+   /* margin-top: 15px; */
 }
 
 .feature h3 {
@@ -352,7 +356,8 @@ a {
  #pricing-section-heading h2 {
      font-size: 3rem;
      color: #fff;
-     padding: 25px;
+     padding: 40px 0;
+     
  }
 
  #pricing-container {
@@ -363,14 +368,18 @@ a {
      align-items: center;
      justify-content: center;
      background-color:#ff4c68;
-     /* padding: 30px; */
+     padding-bottom: 50px;
+ }
+
+ .pricing-article {
+     margin-bottom: 20px;
  }
  
  
  .inner-price {
      width: 75%;
      background-color: white;
-     /* margin: 0 20px 0 20px; */
+     margin: 0 20px 10px 20px;
      text-align: center;
      padding: 15px 5px;
      border-radius: 15px;
@@ -438,13 +447,13 @@ a {
  }
 
  #footer-download h2 {
-     padding-top: 25px;
+     padding: 50px 20px;
      margin-bottom: 50px;
      font-size: 3rem;
  }
 
  #footer-download button {
-     margin-bottom: 50px;
+     margin-bottom: 75px;
  }
 
  /* Footer section */
@@ -869,7 +878,7 @@ form > div {
       float: none;
       display: block;
       text-align: right;
-      background-color:#000;
+      background-color:#ff4c68;
     }
   }
 
