@@ -1,126 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A web-page promoting a dating app for cartoon characters">
-    <meta name="keywords" content="Love, Dating, Meet, cartoon, Looney Tunes, Hanna Barbera">
-    <meta name="author" content="Martin Bridgman, Bolshie Pig">
-    <link rel="stylesheet" href="assets/css/style.css">
-         
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A web-page promoting a dating app for cartoon characters">
+        <meta name="keywords" content="Love, Dating, Meet, cartoon, Looney Tunes, Hanna Barbera">
+        <meta name="author" content="Martin Bridgman, Bolshie Pig">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Tintoon</title>
+    </head>
 
-    <title>Tintoon</title>
-</head>
-<body>
-<!-- Top Navigation Menu -->
-    <header class="topnav" id="myTopnav">
-        <a href="index.html" id="logo">Tintoon</a>
+    <body>
+        <!-- Top Navigation Menu -->
+        <header class="topnav" id="myTopnav">
+            <a href="index.html" id="logo">Tintoon</a>
 
-<div id="myLinks">
-   <a href="index.html" class="active">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="sign_up.html">Sign Up</a>
+            <div id="myLinks">
+                <a href="index.html" class="active">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="sign_up.html">Sign Up</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            </div>  
+        </header>
 
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-</div>
-  
-    </header>
-   
-   <!-- <header>
-        <a href="index.html"><h1 id="logo">Tintoon</h1></a>
-        <nav>
-            <ul id="nav-menu">
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="sign_up.html">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header> -->
-    <section id="heading-banner">
-        <div id="left-image">
-            <img src="assets/images/roger-rabbit_portrait.png" alt="Roger Rabbit in love" id="roger_image">
-        </div>
-        <div id="center-heading">
-            <h1>Find your perfect toon match today with <br><span>Tintoon!!!</span></h1>
-        </div>
-        <div id="right-image">
-            <img src="assets/images/bugs-bunny_portrait.png" alt="Bugs Bunny in love" id="bugs-image">
-        </div>
-        
-    </section>
-    <section id="download">
-        <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"><button class=" download-button google-button" aria-label="Go to Google play web store to download app (opens in new window)"><i class="fab fa-google-play"></i> Download</button></a>
-        <a href="https://www.apple.com/uk/store" target="_blank" rel="noopener noreferrer"><button class="download-button apple-button" aria-label="Go to Apple web store to download app (opens in new window)"><i class="fab fa-apple"></i> Download</button></a>
-        
-    </section>
+        <!-- Banner heading section-->
+        <section id="heading-banner">
+            <div id="left-image">
+                <img src="assets/images/roger-rabbit_portrait.png" alt="Roger Rabbit in love" id="roger_image">
+            </div>
+            <div id="center-heading">
+                <h1>Find your perfect toon match today with <br><span>Tintoon!!!</span></h1>
+            </div>
+            <div id="right-image">
+                <img src="assets/images/bugs-bunny_portrait.png" alt="Bugs Bunny in love" id="bugs-image">
+            </div>        
+        </section>
 
-    <section id="feature-section-heading">
-        <h2>Features to appeal to every Toon</h2>
-    </section>
+        <!-- Downlaod section -->
+        <section id="download">
+            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"><button class=" download-button google-button" aria-label="Go to Google play web store to download app (opens in new window)"><i class="fab fa-google-play"></i> Download</button></a>
+            <a href="https://www.apple.com/uk/store" target="_blank" rel="noopener noreferrer"><button class="download-button apple-button" aria-label="Go to Apple web store to download app (opens in new window)"><i class="fab fa-apple"></i> Download</button></a>
+        </section>
 
-    <section id="feature-section-container">
-        <article class="feature">
-            <h1><i class="fas fa-bullseye"></i></h1>
-            <h3>Easy to use</h3>
-            <p>So easy to use, even Foghorn Leghorn could do it</p>
-        </article>
-        <article class="feature">
-            <h1><i class="far fa-star"></i></h1>
-            <h3>Elite Clientele</h3>
-            <p>We have all the toons, The greatest toons</p>
-        </article>
-        <article class="feature">
-            <h1><i class="far fa-thumbs-up"></i></h1>
-            <h3>Guaranteed to work</h3>
-            <p>Find the love of your toon life, or your money back</p>
-        </article>
-    </section>
-
-    <!-- Feature Section -->
-    
-  <!--  <section id="feature-section">
-        <h2>Features to appeal to every Toon</h2>
-        <div class="feature" id="easy">
-            
-            <div class="inner-feature">
+        <!-- Feature Section -->
+        <section id="feature-section-heading">
+            <h2>Features to appeal to every Toon</h2>
+        </section>
+        <section id="feature-section-container">
+            <article class="feature">
                 <h1><i class="fas fa-bullseye"></i></h1>
                 <h3>Easy to use</h3>
                 <p>So easy to use, even Foghorn Leghorn could do it</p>
-            </div>
-           
-        </div>
-        <div class="feature" id="elite">
-            <div class="inner-feature">
+            </article>
+            <article class="feature">
                 <h1><i class="far fa-star"></i></h1>
                 <h3>Elite Clientele</h3>
                 <p>We have all the toons, The greatest toons</p>
-            </div>
-            
-        </div>
-        <div class="feature" id="money-back">
-            <div class="inner-feature">
+            </article>
+            <article class="feature">
                 <h1><i class="far fa-thumbs-up"></i></h1>
                 <h3>Guaranteed to work</h3>
                 <p>Find the love of your toon life, or your money back</p>
-            </div>            
-        </div>        
-    </section> -->
+            </article>
+        </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing-section-heading">
-        
+        <!-- Pricing Section -->
+        <section id="pricing-section-heading">
             <h2>Select the right plan for you to find your perfect toon match</h2>
         </section>
         <section id="pricing-container">
-            
             <article class="pricing-article">
                 <div class="inner-price" id="mutley">
                     <h3 class="price-plan-name">Mutley</h3>
                     <img src="assets/images/mutley.png" alt="Mutley from Wacky Races">
-                    
                     <hr>
                     <ul>
                         <li>5 Matches Per Day</li>
@@ -135,7 +88,6 @@
                 <div class="inner-price" id="penelope">
                     <h3 class="price-plan-name">Penelope Pitstop</h3>
                     <img src="assets/images/penelope-pitstop.png" alt="Penelope Pitstop from Wacky Races">
-                    
                     <hr>
                     <ul>
                         <li>25 Matches Per Day</li>
@@ -150,7 +102,6 @@
                 <div class="inner-price" id="pat">
                     <h3 class="price-plan-name">Pat Pending</h3>
                     <img src="assets/images/pat-pending.png" alt="Pat Pending from Wacky Races">
-                    
                     <hr>
                     <ul>
                         <li>Unlimited Matches</li>
@@ -165,7 +116,6 @@
                 <div class="inner-price" id="peter">
                     <h3 class="price-plan-name">Peter Perfect</h3>
                     <img src="assets/images/peter-perfect.png" alt="Peter Perfect from Wacky Races">
-                    
                     <hr>
                     <ul>
                         <li>Prioity Listing</li>
@@ -179,22 +129,24 @@
             </article>
         </section>
         
-       
-    </section>
-    <section id="footer-download">
-        <h2>Download the Tintoon App <span>now</span> and start searching for your dream match <span>today!!!</span></h2>
-        <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"><button class=" download-button google-button" aria-label="Go to Google play web store to download app (opens in new window)"><i class="fab fa-google-play"></i> Download</button></a>
-        <a href="https://www.apple.com/uk/store" target="_blank" rel="noopener noreferrer"><button class="download-button apple-button" aria-label="Go to Apple web store to download app (opens in new window)"><i class="fab fa-apple"></i> Download</button></a>
-    </section>
-    <footer>
-       <p>&copy 2021 Bolshie Pig || <a href="http://bolshiepig.co.uk" class="bolshiepig-link" alt="Link to Bolshie Pig website"><i class="fas fa-globe"></i> Bolshie Pig Website</a> || <a href="mailto:martin.bridgman@Bolshiepig.co.uk" class="bolshiepig-link"><i class="fas fa-envelope-square"></i> Email Bolshie Pig</a></p>
-       <ul class="social-networks">
-           <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Facebook homepage (opens in new window)"><i class="fab fa-facebook-square"></i></a></li>
-           <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Twitter homepage (opens in new window)"><i class="fab fa-twitter-square"></i></a></li>
-           <li><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to LinkedIn homepage (opens in new window)"><i class="fab fa-linkedin"></i></a></li>
-           <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Instagram homepage (opens in new window)"><i class="fab fa-instagram-square"></i></a></li>
-       </ul>
-    </footer>
+       <!-- lower download section -->
+    
+        <section id="footer-download">
+            <h2>Download the Tintoon App <span>now</span> and start searching for your dream match <span>today!!!</span></h2>
+            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"><button class=" download-button google-button" aria-label="Go to Google play web store to download app (opens in new window)"><i class="fab fa-google-play"></i> Download</button></a>
+            <a href="https://www.apple.com/uk/store" target="_blank" rel="noopener noreferrer"><button class="download-button apple-button" aria-label="Go to Apple web store to download app (opens in new window)"><i class="fab fa-apple"></i> Download</button></a>
+        </section>
+        <!-- Footer section -->
+
+        <footer>
+        <p>&copy 2021 Bolshie Pig || <a href="http://bolshiepig.co.uk" class="bolshiepig-link" alt="Link to Bolshie Pig website"><i class="fas fa-globe"></i> Bolshie Pig Website</a> || <a href="mailto:martin.bridgman@Bolshiepig.co.uk" class="bolshiepig-link"><i class="fas fa-envelope-square"></i> Email Bolshie Pig</a></p>
+        <ul class="social-networks">
+            <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Facebook homepage (opens in new window)"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Twitter homepage (opens in new window)"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to LinkedIn homepage (opens in new window)"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Instagram homepage (opens in new window)"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+        </footer>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/672a710788.js" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>
