@@ -13,7 +13,7 @@ body {
 
 /* logo and navigation*/
 
-header {
+nav {
     background-color: #ff4c68;   
        
 }
@@ -498,7 +498,7 @@ font-size: 2.2rem;
     margin: 20px 0 20px;
 }
 
-#figures {
+#testimonials-container {
     clear: both;
     column-count: 4;
     column-gap: 20px;
@@ -894,7 +894,7 @@ form > div {
   /* gallery page media queries */
 
   @media screen and (max-width: 1275px) {
-    #figures {
+    #testimonials-container {
         clear: both;
         column-count: 3;
         column-gap: 10px;
@@ -903,7 +903,7 @@ form > div {
   }
 
   @media screen and (max-width: 975px) {
-      #figures {
+    #testimonials-container {
         clear: both;
         column-count: 2;
         column-gap: 10px; 
@@ -911,7 +911,7 @@ form > div {
   }
 
   @media screen and (max-width: 650px) {
-    #figures {
+    #testimonials-container {
         clear: both;
         column-count: 1;
         column-gap: 10px; 

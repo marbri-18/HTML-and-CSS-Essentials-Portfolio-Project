@@ -1,188 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A web-page promoting a dating app for cartoon characters">
-    <meta name="keywords" content="Love, Dating, Meet, cartoon, Looney Tunes, Hanna Barbera">
-    <meta name="author" content="Martin Bridgman, Bolshie Pig">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Tintoon</title>
-</head>
-<body>
-    <header class="topnav" id="myTopnav">
-        <a href="index.html" id="logo">Tintoon</a>
-
-<div id="myLinks">
-   <a href="index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="sign_up.html" class="active">Sign Up</a>
-
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-</div>
-  
-    </header>
-    <!-- <section id="form-container">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A web-page promoting a dating app for cartoon characters">
+        <meta name="keywords" content="Love, Dating, Meet, cartoon, Looney Tunes, Hanna Barbera">
+        <meta name="author" content="Martin Bridgman, Bolshie Pig">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Tintoon</title>
+    </head>
+    <body>
+        <!-- Top Navigation Menu -->
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" id="logo">Tintoon</a>
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="sign_up.html" class="active">Sign Up</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
         
-        <div>
-            <h1 id="form-page-title">Sign Up</h1>
-        </div>
-        <div id="sign-up">
-            <div id="sign-up-text">
-                <h2 id="register">Register your details to get special offers tailored for you!!</h2>
-            </div>
-            <div>
-                <img src="assets/images/wile-e-coyote_help.png" alt="iphone image with Wile E. Coyote holding help sign on screen." id="form-image">
-            </div>
-            
-        </div>
-        <div id="sign-up-form">
-            
-            <form action="" method="POST">
-                <div>
-                    <label for="char_name">Character name*: </label>
-                    <input type="text" id="char_name" name="char-name" placeholder="your character name" required>
+        <!-- Page header section -->
+        <header id="sign-up-header">
+            <h1 id="sign-up-heading">Sign Up</h1>
+        </header>
+
+        <!-- Sign Up Form and poster container -->
+        <section id="main-container">
+            <article id="poster-container">
+                <div id="banner-text-container">
+                    <h2 id="register">Register your details to get special offers tailored for you!!</h2>
                 </div>
-                
-                <div>
-                    <label for="email">Email address*: </label>
-                    <input type="email" id="email" name="email" placeholder="your Email address" required>
+                <div id="image-container">
+                    <img src="assets/images/wile-e-coyote_help.png" alt="iphone image with Wile E. Coyote holding help sign on screen." id="form-image">
                 </div>
+            </article>
+            <article id="form-container">
+                <legend>Your details</legend>
+                <form action="" method="POST" id="sign-up-form">
+                    <div class="form-input">
+                        <label for="char_name">Character name*: </label>
+                        <input type="text" id="char_name" name="char-name" placeholder="your character name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email address*: </label>
+                        <input type="email" id="email" name="email" placeholder="your Email address" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="password">Password*: </label>
+                        <input type="password" id="password" name="password" placeholder="Choose a password" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="conf_password">Confirm password*: </label>
+                        <input type="password" id="conf_password" name="confirm-password" placeholder="Confirm your password" required>
+                    </div>
+                    <fieldset>
+                        <legend>Gender*</legend>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Toon type*</legend>
+                        <label for="looney-tunes">Looney Tunes</label>
+                        <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">                    
+                        <br>
+                        <label for="hanna-barbera">Hanna Barbera</label>
+                        <input type="radio" name="toontype" id="hanna-barbera" value="hanna-barbera">
+                        <br>
+                        <label for="fred-quimby">Fred Quimby</label>
+                        <input type="radio" name="toontype" id="fred-quimby" value="fred-quimby">
+                        <br>
+                        <label for="disney">Disney</label>
+                        <input type="radio" name="toontype" id="disney" value="disney">
+                        <br>
+                        <label for="other">Other</label>
+                        <input type="radio" name="toontype" id="other" value="other">
+                        <br>
+                        <label for="specify_toontype">Please specify: </label>
+                        <input type="text" id="specify_toontype" name="specify_toontype">
+                    </fieldset>
+                    <input type="checkbox" name="tandc" id="terms">
+                    <label for="terms">I have read and agree to the terms and conditions*</label><br>
+                    <p>* = must be completed.</p>
+                    <button id="sign-up-button">Sign Up</button>
+                </form>
+            </article>
+        </section>
 
-                <div>
-                    <label for="password">Password*: </label>
-                    <input type="password" id="password" name="password" placeholder="Choose a password" required>
-                </div>
-
-                <div>
-                    <label for="conf_password">Confirm password*: </label>
-                    <input type="password" id="conf_password" name="confirm-password" placeholder="Confirm your password" required>
-                </div>
-
-                <fieldset>
-                    <legend>Gender*</legend>
-                    <input type="radio" name="gender" id="male" value="male">
-                    <label for="male">Male</label>
-                    <br>
-                    <input type="radio" name="gender" id="female" value="female">
-                    <label for="female">Female</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Toon type*</legend>
-                    <label for="looney-tunes">Looney Tunes</label>
-                    <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">                    
-                    <br>
-                    <label for="hanna-barbera">Hanna Barbera</label>
-                    <input type="radio" name="toontype" id="hanna-barbera" value="hanna-barbera">
-                    <br>
-                    <label for="fred-quimby">Fred Quimby</label>
-                    <input type="radio" name="toontype" id="fred-quimby" value="fred-quimby">
-                    <br>
-                    <label for="disney">Disney</label>
-                    <input type="radio" name="toontype" id="disney" value="disney">
-                    <br>
-                    <label for="other">Other</label>
-                    <input type="radio" name="toontype" id="other" value="other">
-                    <br>
-                    <label for="specify_toontype">Please specify: </label>
-                    <input type="text" id="specify_toontype" name="specify_toontype">
-                </fieldset>
-                <input type="checkbox" name="tandc" id="terms">
-                <label for="terms">I have read and agree to the terms and conditions*</label><br>
-                <p>* = must be completed.</p>
-                <button id="sign-up-button">Sign Up</button>
-                
-            </form>
-
-        </div>
-    </section> -->
-    <section id="sign-up-header">
-        <h1 id="sign-up-heading">Sign Up</h1>
-    </section>
-    <section id="main-container">
-        <article id="poster-container">
-            <div id="banner-text-container">
-                <h2 id="register">Register your details to get special offers tailored for you!!</h2>
-            </div>
-            <div id="image-container">
-                <img src="assets/images/wile-e-coyote_help.png" alt="iphone image with Wile E. Coyote holding help sign on screen." id="form-image">
-            </div>
-        </article>
-        <article id="form-container">
-            <legend>Your details</legend>
-            <form action="" method="POST" id="sign-up-form">
-                
-                <div class="form-input">
-                    <label for="char_name">Character name*: </label>
-                    <input type="text" id="char_name" name="char-name" placeholder="your character name" required>
-                </div>
-                
-                <div class="form-input">
-                    <label for="email">Email address*: </label>
-                    <input type="email" id="email" name="email" placeholder="your Email address" required>
-                </div>
-
-                <div class="form-input">
-                    <label for="password">Password*: </label>
-                    <input type="password" id="password" name="password" placeholder="Choose a password" required>
-                </div>
-
-                <div class="form-input">
-                    <label for="conf_password">Confirm password*: </label>
-                    <input type="password" id="conf_password" name="confirm-password" placeholder="Confirm your password" required>
-                </div>
-
-                <fieldset>
-                    <legend>Gender*</legend>
-                    <input type="radio" name="gender" id="male" value="male">
-                    <label for="male">Male</label>
-                    <br>
-                    <input type="radio" name="gender" id="female" value="female">
-                    <label for="female">Female</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Toon type*</legend>
-                    <label for="looney-tunes">Looney Tunes</label>
-                    <input type="radio" name="toontype" id="looney-tunes" value="looney-tunes">                    
-                    <br>
-                    <label for="hanna-barbera">Hanna Barbera</label>
-                    <input type="radio" name="toontype" id="hanna-barbera" value="hanna-barbera">
-                    <br>
-                    <label for="fred-quimby">Fred Quimby</label>
-                    <input type="radio" name="toontype" id="fred-quimby" value="fred-quimby">
-                    <br>
-                    <label for="disney">Disney</label>
-                    <input type="radio" name="toontype" id="disney" value="disney">
-                    <br>
-                    <label for="other">Other</label>
-                    <input type="radio" name="toontype" id="other" value="other">
-                    <br>
-                    <label for="specify_toontype">Please specify: </label>
-                    <input type="text" id="specify_toontype" name="specify_toontype">
-                </fieldset>
-                <input type="checkbox" name="tandc" id="terms">
-                <label for="terms">I have read and agree to the terms and conditions*</label><br>
-                <p>* = must be completed.</p>
-                <button id="sign-up-button">Sign Up</button>
-                
-            </form>
-        </article>
-
-    </section>
-    <footer>
-        <p>&copy 2021 Bolshie Pig || <a href="http://bolshiepig.co.uk" class="bolshiepig-link" alt="Link to Bolshie Pig website"><i class="fas fa-globe"></i> Bolshie Pig Website</a> || <a href="mailto:martin.bridgman@Bolshiepig.co.uk" class="bolshiepig-link"><i class="fas fa-envelope-square"></i> Email Bolshie Pig</a></p>
-        <ul class="social-networks">
-            <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Facebook homepage (opens in new window)"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Twitter homepage (opens in new window)"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to LinkedIn homepage (opens in new window)"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Instagram homepage (opens in new window)"><i class="fab fa-instagram-square"></i></a></li>
-        </ul>
-     </footer>
-    <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/672a710788.js" crossorigin="anonymous"></script>
-    <script src="assets/js/scripts.js"></script>
+        <!-- Footer section -->
+        <footer>
+            <p>&copy 2021 Bolshie Pig || <a href="http://bolshiepig.co.uk" class="bolshiepig-link" alt="Link to Bolshie Pig website"><i class="fas fa-globe"></i> Bolshie Pig Website</a> || <a href="mailto:martin.bridgman@Bolshiepig.co.uk" class="bolshiepig-link"><i class="fas fa-envelope-square"></i> Email Bolshie Pig</a></p>
+            <ul class="social-networks">
+                <li><a href="http://facebook.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Facebook homepage (opens in new window)"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Twitter homepage (opens in new window)"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to LinkedIn homepage (opens in new window)"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="http://instagram.com" target="_blank" rel="noopener noreferrer" class="social-media-link" aria-label="Go to Instagram homepage (opens in new window)"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+        </footer>
+        <!-- font awesome script-->
+        <script src="https://kit.fontawesome.com/672a710788.js" crossorigin="anonymous"></script>
+        <script src="assets/js/scripts.js"></script>
