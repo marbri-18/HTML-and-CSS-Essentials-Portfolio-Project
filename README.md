@@ -32,8 +32,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <h4>Footer</h4>
   <p>The footer displays the copyright info for the website. links to the Bolshie Pig website (The website creators presonal website). A contact E mail link and social media links via the social media logo icons. The footer displays across the full width of the screen on all three website pages.</p>
   
-  <h4>Homepage</h4>
-  
+  <h4>Homepage</h4> 
   
     <h4>Banner header section</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/banner_heading_section.png">
