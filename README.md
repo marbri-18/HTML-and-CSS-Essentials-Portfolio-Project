@@ -77,7 +77,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   <h3>Credits</h3>
   <h4>Content</h4>
-  <p>The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the App Brewery (https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at www.bolshiepig.co.uk//</p>
+  <p>The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the App Brewery (https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at www.twodeadwombles.co.uk</p>
   <p>I learnt how to create the responsive top navigation bar with a hamburger icon and used code from W3 Schools (https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</p>
   <p>I uesd W3 Schools as a learning resource for flexboxes used on the homepage </p>
   <p>Icons used in the Tintoon website were downloaded from fontawesome</p>
