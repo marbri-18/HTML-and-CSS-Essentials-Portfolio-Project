@@ -107,54 +107,34 @@ nav {
 /* Download section */
 
 #download {
-    padding: 50px 0 25px;
+    padding: 50px 0 50px;
     background-color: #ff4c68;
     text-align: center;    
 }
 
-.download-button {
-    height: 40px;
-    width: 150px;
-    margin: 0px 10px 30px;
-    border-radius: 5px;
-    font-family: Ubuntu, sans-serif;    
-}
-
-.download-button i {
-    margin-right: 5px;
-}
-
-.google-button {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px outset white;
-}
-
-.google-button > a {
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-.apple-button {
-    background-color: #000;
-    border: 1px outset #666;
-    
-}
-
-.apple-button > a {
+#download > a {
     color: #fff;
-    font-size: 1.2rem;
+    border: 1px outset #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Ubuntu, sans-serif;
     text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 20px;
 }
 
-.google-button:hover {
-    background-color: #aaa;
-    color: #000;
+#download > a:link {
+    background-color:#222;
 }
 
-.apple-button:hover {
-    background-color: #fff;
-    color: #000;
+#download > a > i {
+    margin-right: 5px;
+    color: #ddd;
+}
+
+#download > a:hover {
+    background-color: #444;
+    color: #fff;
 }
 
 /* Feature section Heading*/
@@ -282,21 +262,40 @@ nav {
  }
 
  /* Call to action Section */
- #footer-download .google-button {
-     color: #000;
-     border: 1px outset #333;
- }
+#footer-download {
+    padding-bottom: 50px;
+}
 
  #footer-download h2 {
      padding: 50px 20px;
-     margin-bottom: 50px;
+     margin-bottom: 40px;
      font-size: 3rem;
  }
 
- #footer-download .google-button {
-     margin-bottom: 75px;
-     background-color:#ff4c68;
- }
+ #footer-download > a {
+    color: #fff;
+    border: 1px outset #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Ubuntu, sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+#footer-download > a:link {
+    background-color:#222;
+}
+
+#footer-download > a > i {
+    margin-right: 5px;
+    color: #ddd;
+}
+
+#footer-download > a:hover {
+    background-color: #444;
+    color: #fff;
+}
 
  /* Footer section */
  footer {
