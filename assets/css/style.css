@@ -80,7 +80,6 @@ nav {
     font-size: 2.5rem;
     text-align: center;
     letter-spacing: 3px;
-    flex: 1 auto auto;
     flex-basis: 50%;
     flex-shrink: 5;
 }
@@ -128,15 +127,24 @@ nav {
 .google-button {
     background-color: rgba(0, 0, 0, 0);
     border: 1px outset white;
+}
+
+.google-button > a {
     color: white;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .apple-button {
     background-color: #000;
     border: 1px outset #666;
+    
+}
+
+.apple-button > a {
     color: #fff;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .google-button:hover {
@@ -285,8 +293,9 @@ nav {
      font-size: 3rem;
  }
 
- #footer-download button {
+ #footer-download .google-button {
      margin-bottom: 75px;
+     background-color:#ff4c68;
  }
 
  /* Footer section */
