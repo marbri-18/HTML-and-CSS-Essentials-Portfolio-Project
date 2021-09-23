@@ -74,8 +74,17 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
     
   <h3>Deployment</h3>
+  <p>The Tintoon website has been deployed at https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/</p>
+  <p>All files used in the Tintoon website can be viewed at https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project</p>
   
   <h3>Credits</h3>
   <h4>Content</h4>
-  The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the App Brewery (https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project.
+  <p>The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the App Brewery (https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at www.bolshiepig.co.uk//</p>
+  <p>I learnt how to create the responsive top navigation bar with a hamburger icon and used code from W3 Schools (https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</p>
+  <p>I uesd W3 Schools as a learning resource for flexboxes used on the homepage </p>
+  <p>Icons used in the Tintoon website were downloaded from fontawesome</p>
   <h4>Media</h4>
+  <p>I used Balsamiq to produce wireframes for project planning. The wireframes have been uploaded to the HTML and CSS essentials project portfolio repository</p>
+  <p>I used codeply to explore many of the CSS layouts before adding them to the project.</p>
+  <p>I used Affinity designer to create the digital illustrations of cartoon characters for all images used in the Tintoon website.</p>
+  <p>All illustrations are of cartoon characters originally appearing in Warner Brothers, Looney tunes or Hanna Barbera productions.</p>
