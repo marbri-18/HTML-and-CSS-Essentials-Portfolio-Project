@@ -51,11 +51,11 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   <h4>Gallery Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
-    <p></p>
+    <p>The gallery page displays figures with testimonials attached to them from former satisfied fictional cartoon characters. The page conveys to the cartoon user that celebrity characters have used the site before and have glowing comments to make. At full screen width the figures are set up in four columns but as the screen width is decreased the columns accordingly decrease to three, two and a single column. This has been done by using media queries set at relevant breakpoints to decrease the column count incrementally.</p>
   
   <h4>Sign Up Page</h4>
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png">
-    <p></p>
+    <p>The sign-up page represents a final opportunity to maintain engagement with a potential App user. If the users interest has not been sufficiently arroused for them to download the App and sign up for a plan, this page allows users to register their details so they might recieve customised pricing plan offers. The sign up page has two articles. One article aligned to the left contains a poster style section advising the user to sign up for the special offers. The right hand article is the form for users to submit their details. Media queries with relavant CSS drive the responsiveness for this page.</p>
   
   <h3>Testing</h3>
     <p></p>
