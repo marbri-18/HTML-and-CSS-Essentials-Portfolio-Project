@@ -65,12 +65,14 @@ nav {
     padding: 10px 0 10px 0;
     display: flex;
     flex-wrap: wrap;
+    /* flex-shrink: 5 1 5; */
     align-items: center;
     justify-content: center;
 }
 
 #left-image {
-    flex: 1 auto auto;
+    flex-basis: 25%;
+    flex-shrink: 0;
 }
 
 #center-heading {
@@ -79,8 +81,7 @@ nav {
     text-align: center;
     letter-spacing: 3px;
     flex: 1 auto auto;
-    flex-basis: 600px;
-    flex-grow: 10;
+    flex-basis: 50%;
     flex-shrink: 5;
 }
 
@@ -92,7 +93,8 @@ nav {
 }
 
 #right-image {
-    flex: 1 auto auto;
+    flex-basis: 25%;
+    flex-shrink: 0;
 }
 
 #roger_image {
