@@ -305,11 +305,11 @@ nav {
 
  footer > p {
      padding-top: 20px;
-     font-size: 16px;
+     font-size: 24px;
  }    
 
 .bolshiepig-link {
-    font-size: 16px;
+    font-size: 24px;
     color: #fff;
     text-decoration: underline;
 }
@@ -330,9 +330,17 @@ nav {
     padding: 15px 10px;
 }
 
+.social-media-link {
+    font-size: 2.5rem;
+}
+
 .social-media-link:hover {
     color: #fff;
     font-size: 2.2rem;
+}
+
+.social-media-link:visited {
+    color: #fff;
 }
 
 /* gallery*/
@@ -411,9 +419,9 @@ figure img {
 
 #poster-container {
     width: 49%;
-    background-color: #ef8172;
+    background-color: #ff4c68;
     display: inline-block;
-    border: 3px #ff4c68 double;
+    border: 3px #ef8172 double;
     border-radius: 25px;
 }
 
@@ -436,7 +444,6 @@ figure img {
 #register {
     width: 90%;
     color: #fff;
-    /*text-shadow: 1px 1px #000; */
     font-size: 3rem;    
     line-height: 4rem;
 }
