@@ -83,6 +83,11 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <p>I learnt how to create the responsive top navigation bar with a hamburger icon and used code from W3 Schools (https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</p>
   <p>I uesd W3 Schools as a learning resource for flexboxes used on the homepage </p>
   <p>Icons used in the Tintoon website were downloaded from fontawesome</p>
+  
+  <h4>Help and Support</h4>
+  <p>I recieved valuable advice help and support from my code Institute assigned mentor Sammy Dartnall</p>
+  <p></p> The Tintoon website was completed following the completion of the Code Institute HTML and CSS Essentials module. The first module of the Code Institute's Diploma in Software Development (E-Commerce applications).
+  
   <h4>Media</h4>
   <p>I used Balsamiq to produce wireframes for project planning. The wireframes have been uploaded to the HTML and CSS essentials project portfolio repository</p>
   <p>I used codeply to explore many of the CSS layouts before adding them to the project.</p>
