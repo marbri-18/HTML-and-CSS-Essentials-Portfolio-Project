@@ -310,11 +310,18 @@ nav {
 
 .bolshiepig-link {
     font-size: 16px;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .bolshiepig-link:hover {
-    color: #fff;
+    color: #ddd;
     font-size: 1.2rem;
+}
+
+.bolshiepig-link:visited {
+    color:#fff;
+    text-decoration: none;
 }
 
 .social-networks li {
@@ -429,7 +436,7 @@ figure img {
 #register {
     width: 90%;
     color: #fff;
-    text-shadow: 1px 1px #000;
+    /*text-shadow: 1px 1px #000; */
     font-size: 3rem;    
     line-height: 4rem;
 }
@@ -545,7 +552,6 @@ form > div {
 
     .topnav a.icon {
       float: right;
-      display: inline-block;
       font-size: 2.5rem;
     }
   }
