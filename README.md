@@ -63,14 +63,13 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   <p>The Tintoon website has been passed through the W3Schools Jigsaw CSS validator. No errors were reported.</p>
   
   <p>The Tintoon website was passed through the Google Chrome Developer Tools lighthouse extension. The following screenshot image shows the results from the report.</p>
-  <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/Lighthouse.png">
-    
-    <h3>Bugs</h3>
+  <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/Lighthouse.png"> 
+   
+  <h3>Bugs</h3>
   There were no major bugs to resolve during the development of the Tintoon web-site. Although drastic modification of CSS was required at times to improve the appearance. This included the introduction of flexboxes to the homepage at a mid stage of development.
     
-    <h3>Unfixed Bugs</h3>
+  <h3>Unfixed bugs</h3>
   <p>There are no known oustanding bugs.</p>  
-  
     
   <h3>Deployment</h3>
   <p>The Tintoon website has been deployed at https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/</p>
