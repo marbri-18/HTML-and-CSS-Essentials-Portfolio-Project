@@ -57,8 +57,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
     <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png">
     <p>The sign-up page represents a final opportunity to maintain engagement with a potential App user. If the users interest has not been sufficiently arroused for them to download the App and sign up for a plan, this page allows users to register their details so they might recieve customised pricing plan offers. The sign up page has two articles. One article aligned to the left contains a poster style section advising the user to sign up for the special offers. The right hand article is the form for users to submit their details. Media queries with relavant CSS drive the responsiveness for this page.</p>
   
-    
-    <h3>Validation</h3>
+  <h3>Validation</h3>  
   <p>The Tintoon website has been passed through the W3Schools html validator. There are no outstanding errors. There are 9 warnings on the homepage, 1 warning on the gallery page and 2 warnings on the sign-up page. All these warnings relate to an absence of h1 to h6 headers at the beginning of sections or articles. In all instances this is due to an alternative approach being used - eg the use of icons in the homepage features section or internal divs or sections within sections</p>
   
   <p>The Tintoon website has been passed through the W3Schools Jigsaw CSS validator. No errors were reported.</p>
