@@ -127,6 +127,10 @@ nav {
     background-color:#222;
 }
 
+#download > .google-play-link:link {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 #download > a > i {
     margin-right: 5px;
     color: #ddd;
@@ -135,6 +139,10 @@ nav {
 #download > a:hover {
     background-color: #444;
     color: #fff;
+}
+
+#download > .google-play-link:hover {
+    background-color: #f4516a;
 }
 
 /* Feature section Heading*/
@@ -287,6 +295,10 @@ nav {
     background-color:#222;
 }
 
+#footer-download > .google-play-link:link {
+    background-color: #ff4c68
+}
+
 #footer-download > a > i {
     margin-right: 5px;
     color: #ddd;
@@ -295,6 +307,10 @@ nav {
 #footer-download > a:hover {
     background-color: #444;
     color: #fff;
+}
+
+#footer-download > .google-play-link:hover {
+    background-color: #f4516a;
 }
 
  /* Footer section */
