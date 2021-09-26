@@ -12,6 +12,7 @@ body {
 }
 
 /* logo and navigation*/
+/* logo and navigation*/
 nav {
     background-color: #ff4c68;   
 }
@@ -24,13 +25,11 @@ nav {
     float: left;
     }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #FF4C68;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
     display: block;
@@ -41,19 +40,16 @@ nav {
     font-size: 2rem;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #EF8172;
     color: black;
   }
   
-  /* Add an active class to highlight the current page */
   .topnav a.active {
     background-color: #EF8172;
     color: white;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   }
@@ -553,51 +549,52 @@ form > div {
  /* navigation bar media queries */
 
  @media screen and (max-width: 750px){
-     .topnav a {
-        padding: 14px 10px;
-        font-size: 1.3rem;
-     }
+    .topnav a {
+       padding: 14px 10px;
+       font-size: 1.3rem;
+    }
 
-     #logo {
-         font-size: 3.5rem;
-     }
- }
+    #logo {
+        font-size: 3.5rem;
+    }
+}
 
- /* When the screen is less than 600 pixels wide, Show the hamburger icon and hide links (except brand logo) */
+/* When the screen is less than 600 pixels wide, Show the hamburger icon and hide links (except brand logo) */
 @media screen and (max-width: 600px) {
-   .topnav a {
-       display: none;
-    }
+  .topnav a {
+      display: none;
+   }
 
-    .topnav #logo {
-        display: inline-block;
-    }
+   .topnav #logo {
+       display: inline-block;
+   }
 
-    .topnav a.icon {
-      float: right;
-      font-size: 2.5rem;
-    }
-  }
-  
-  @media screen and (max-width: 900px) {
-    .topnav.responsive     {
-        position: relative;
-    }
+   .topnav a.icon {
+     float: right;
+     font-size: 2.5rem;
+     display: block;
+   }
+ }
+ 
+ @media screen and (max-width: 900px) {
+   .topnav.responsive     {
+       position: relative;
+   }
 
-    .topnav.responsive a.icon {
-      float: right;
-      right: 0;
-      top: 0;
-    }
+   .topnav.responsive a.icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
 
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: right;
-      background-color:#ff4c68;
-    }
-  }
-
+   .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+     background-color:#ff4c68;
+     width: 100px;
+   }
+ }
   /* gallery page media queries */
   @media screen and (max-width: 1275px) {
     #testimonials-container {
