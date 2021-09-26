@@ -71,6 +71,7 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   The Tintoon website has been passed through the W3Schools Jigsaw CSS validator. No errors were reported.
   
   The Tintoon website was passed through the Google Chrome Developer Tools lighthouse extension. The following screenshot image shows the results from the report.
+  
   ![screenshot of Google Developer Tools Lighthouse report.](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/Lighthouse.png) 
    
   ### Bugs
