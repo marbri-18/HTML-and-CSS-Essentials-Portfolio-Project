@@ -511,6 +511,28 @@ form > div {
     padding: 3px 5px;
 }
 
+#message-legend {
+    text-align: left;
+    color: #fff;
+}
+
+#message-fieldset {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#message-label {
+    vertical-align: top;
+}
+
+#message-textarea {
+    border-radius: 10px;
+}
+
  fieldset {
      border: 1px solid #fff;
      text-align: left;
