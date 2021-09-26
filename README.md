@@ -81,13 +81,13 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
     
   ### Deployment
   The Tintoon website has been deployed on [Github](https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/)
-  All files used in the Tintoon website can be viewed in my Github repository[marbri-18/HTML-and-CSS-essentials-Portfolio-project](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project)
+  All files used in the Tintoon website can be viewed in my Github repository [marbri-18/HTML-and-CSS-essentials-Portfolio-project](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project)
   
   ### Credits
   
   #### Content
   
-  The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the [App Brewery](https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at (www.twodeadwombles.co.uk)
+  The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the [App Brewery](https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at my personal [website] (www.twodeadwombles.co.uk)
   
   I learnt how to create the responsive top navigation bar with a hamburger icon and used code from [W3 Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
   
