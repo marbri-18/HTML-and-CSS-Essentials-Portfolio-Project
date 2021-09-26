@@ -567,6 +567,23 @@ form > div {
      border: 4px outset #666;
  }
 
+ /* Registration page */
+  #registration-complete {
+      background-color: #ff4c68;
+      width: 30%;
+      margin: 30px auto;
+      border: 2px double #ef8172;
+      border-radius: 15px;
+      padding: 15px;
+      color: #fff;
+      line-height: 2.5rem;
+      font-size: 1.5rem; 
+  }
+
+  #registration-complete > p {
+padding: 25px 10px;
+  }
+
  /* Media Queries */
  /* navigation bar media queries */
 
