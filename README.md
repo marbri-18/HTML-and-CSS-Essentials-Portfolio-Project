@@ -55,46 +55,53 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   
   The download section offers the user another opportunity to download the Tintoon app before leaving the homepage.
   
+  ### Gallery Page
+  ![Screenshot of gallery page.](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png)
   
-  <h4>Gallery Page</h4>
-    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/gallery_page.png">
-    <p>The gallery page displays figures with testimonials attached to them from former satisfied fictional cartoon characters. The page conveys to the cartoon user that celebrity characters have used the site before and have glowing comments to make. At full screen width the figures are set up in four columns but as the screen width is decreased the columns accordingly decrease to three, two and a single column. This has been done by using media queries set at relevant breakpoints to decrease the column count incrementally.</p>
+  The gallery page displays figures with testimonials attached to them from former satisfied fictional cartoon characters. The page conveys to the cartoon user that celebrity characters have used the site before and have glowing comments to make. At full screen width the figures are set up in four columns but as the screen width is decreased the columns accordingly decrease to three, two and a single column. This has been done by using media queries set at relevant breakpoints to decrease the column count incrementally.
   
-  <h4>Sign Up Page</h4>
-    <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png">
-    <p>The sign-up page represents a final opportunity to maintain engagement with a potential App user. If the users interest has not been sufficiently arroused for them to download the App and sign up for a plan, this page allows users to register their details so they might recieve customised pricing plan offers. The sign up page has two articles. One article aligned to the left contains a poster style section advising the user to sign up for the special offers. The right hand article is the form for users to submit their details. Media queries with relavant CSS drive the responsiveness for this page.</p>
+ ### Sign-Up page
+ ![Screenshot of sign-up page.](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/signup_page.png)
+ 
+ The sign-up page represents a final opportunity to maintain engagement with a potential App user. If the users interest has not been sufficiently arroused for them to download the App and sign up for a plan, this page allows users to register their details so they might recieve customised pricing plan offers. The sign up page has two articles. One article aligned to the left contains a poster style section advising the user to sign up for the special offers. The right hand article is the form for users to submit their details. Media queries with relavant CSS drive the responsiveness for this page. 
   
-  <h3>Validation</h3>  
-  <p>The Tintoon website has been passed through the W3Schools html validator. There are no outstanding errors. There are 9 warnings on the homepage, 1 warning on the gallery page and 2 warnings on the sign-up page. All these warnings relate to an absence of h1 to h6 headers at the beginning of sections or articles. In all instances this is due to an alternative approach being used - eg the use of icons in the homepage features section or internal divs or sections within sections</p>
+  ### Validation  
+  The Tintoon website has been passed through the W3Schools html validator. There are no outstanding errors. There are 9 warnings on the homepage, 1 warning on the gallery page and 2 warnings on the sign-up page. All these warnings relate to an absence of h1 to h6 headers at the beginning of sections or articles. In all instances this is due to an alternative approach being used - eg the use of icons in the homepage features section or internal divs or sections within sections
   
-  <p>The Tintoon website has been passed through the W3Schools Jigsaw CSS validator. No errors were reported.</p>
+  The Tintoon website has been passed through the W3Schools Jigsaw CSS validator. No errors were reported.
   
-  <p>The Tintoon website was passed through the Google Chrome Developer Tools lighthouse extension. The following screenshot image shows the results from the report.</p>
-  <img src="https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/Lighthouse.png"> 
+  The Tintoon website was passed through the Google Chrome Developer Tools lighthouse extension. The following screenshot image shows the results from the report.
+  ![screenshot of Google Developer Tools Lighthouse report.](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/assets/images/Lighthouse.png) 
    
-  <h3>Bugs</h3>
-  There were no major bugs to resolve during the development of the Tintoon web-site. Although drastic modification of CSS was required at times to improve the appearance. This included the introduction of flexboxes to the homepage at a mid stage of development.
+  ### Bugs
+  A bug occured in the functioning of the navigation bar and the displaying of the hamburger icon when the screen width was reduced. This was resolved by setting the CSS display property to block. Subsequently another bug emerged relating to the display of the drop down menu. This had been caused by the space before the `responsive` class in the script file being deleted. Re-instating the space resolved the problem.
     
-  <h3>Unfixed bugs</h3>
-  <p>There are no known oustanding bugs.</p>  
+  ### Unfixed bugs
+  There are no known oustanding bugs.  
     
-  <h3>Deployment</h3>
-  <p>The Tintoon website has been deployed at https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/</p>
-  <p>All files used in the Tintoon website can be viewed at https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project</p>
+  ### Deployment
+  The Tintoon website has been deployed on [Github](https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/)
+  All files used in the Tintoon website can be viewed in my Github repository[marbri-18/HTML-and-CSS-essentials-Portfolio-project](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project)
   
-  <h3>Credits</h3>
-  <h4>Content</h4>
-  <p>The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the App Brewery (https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at www.twodeadwombles.co.uk</p>
-  <p>I learnt how to create the responsive top navigation bar with a hamburger icon and used code from W3 Schools (https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</p>
-  <p>I uesd W3 Schools as a learning resource for flexboxes used on the homepage </p>
-  <p>Icons used in the Tintoon website were downloaded from fontawesome</p>
+  ### Credits
   
-  <h4>Help and Support</h4>
-  <p>I recieved valuable advice help and support from my code Institute assigned mentor Sammy Dartnall</p>
-  <p></p> The Tintoon website was completed following the completion of the Code Institute HTML and CSS Essentials module. The first module of the Code Institute's Diploma in Software Development (E-Commerce applications).
+  #### Content
   
-  <h4>Media</h4>
-  <p>I used Balsamiq to produce wireframes for project planning. The wireframes have been uploaded to the HTML and CSS essentials project portfolio repository</p>
+  The Tintoon website was based upon a walktrough project from the Udemy course "2021 Web Development Bootcamp" by Angela Yu of the [App Brewery](https://www.appbrewery.co/). The Original project was a landing page site called Tindog. I developed the Tintoon theme while completing the project. The completed version of the Web development bootcamp project can be seen at (www.twodeadwombles.co.uk)
+  
+  I learnt how to create the responsive top navigation bar with a hamburger icon and used code from [W3 Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+  
+  I uesd W3 Schools as a learning resource for flexboxes used on the homepage
+  
+  Icons used in the Tintoon website were downloaded from [Fontawesome](https://fontawesome.com/)
+  
+  #### Help and Support
+  I recieved valuable advice help and support from my code Institute assigned mentor Sammy Dartnall. I had three hour long mentoring sessions during August/September 2021. The last session was on Thursday 23 September.
+  
+  The Tintoon website was completed following the completion of the Code Institute HTML and CSS Essentials module. The first module of the Code Institute's Diploma in Software Development (E-Commerce applications).
+  
+  #### Media
+  I used [Balsamiq](https://balsamiq.com/) to produce wireframes for project planning. The wireframes have been uploaded to the HTML and CSS essentials project portfolio repository
   <p>I used codeply to explore many of the CSS layouts before adding them to the project.</p>
   <p>I used Affinity designer to create the digital illustrations of cartoon characters for all images used in the Tintoon website.</p>
   <p>All illustrations are of cartoon characters originally appearing in Warner Brothers, Looney tunes or Hanna Barbera productions.</p>
