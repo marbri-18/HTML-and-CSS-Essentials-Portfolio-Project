@@ -103,7 +103,6 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   #### Media
   I used [Balsamiq](https://balsamiq.com/) to produce wireframes for project planning. The wireframes have been uploaded to my [HTML and CSS essentials project portfolio repository](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/Tintoon_%20Portfolio%20Project%201.pdf)
   
-  I used codeply to explore many of the CSS layouts before adding them to the project.
+  I used codeply to explore many of the CSS layouts before adding them to the project. Examples of my Codeply workouts can be found on my [Codeply page](https://www.codeply.com/u/marbri_18)
   
-  <p>I used Affinity designer to create the digital illustrations of cartoon characters for all images used in the Tintoon website.</p>
-  <p>All illustrations are of cartoon characters originally appearing in Warner Brothers, Looney tunes or Hanna Barbera productions.</p>
+  I used Affinity designer to create the digital illustrations of cartoon characters for all images used in the Tintoon website. All illustrations are of cartoon characters originally appearing in Warner Brothers, Looney tunes or Hanna Barbera productions.
