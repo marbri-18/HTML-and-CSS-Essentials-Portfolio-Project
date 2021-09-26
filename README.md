@@ -101,7 +101,9 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
   The Tintoon website was completed following the completion of the Code Institute HTML and CSS Essentials module. The first module of the Code Institute's Diploma in Software Development (E-Commerce applications).
   
   #### Media
-  I used [Balsamiq](https://balsamiq.com/) to produce wireframes for project planning. The wireframes have been uploaded to the HTML and CSS essentials project portfolio repository
-  <p>I used codeply to explore many of the CSS layouts before adding them to the project.</p>
+  I used [Balsamiq](https://balsamiq.com/) to produce wireframes for project planning. The wireframes have been uploaded to my [HTML and CSS essentials project portfolio repository](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project/blob/main/Tintoon_%20Portfolio%20Project%201.pdf)
+  
+  I used codeply to explore many of the CSS layouts before adding them to the project.
+  
   <p>I used Affinity designer to create the digital illustrations of cartoon characters for all images used in the Tintoon website.</p>
   <p>All illustrations are of cartoon characters originally appearing in Warner Brothers, Looney tunes or Hanna Barbera productions.</p>
