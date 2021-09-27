@@ -249,15 +249,17 @@ nav {
 
  .signup-button {
      width: 85%;
+     display: block;
+     margin: 0 auto;
      background-color: #000;
      color: white;
      font-size: 1.5rem;
-     text-align: center;
-     vertical-align: text-bottom;
+     text-align: center;     
      border-radius: 10px;
      border: 2px outset #444;
-     height: 45px;
+     height: 30px;
      padding: 5px;
+     text-decoration: none;
  }
 
  .signup-button:hover {
