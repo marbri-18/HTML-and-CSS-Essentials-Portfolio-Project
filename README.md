@@ -86,7 +86,8 @@ The Tintoon web-site is based on a walkthrough project I completed in 2021 for a
     
   ### Deployment
   The Tintoon website has been deployed on [Github](https://marbri-18.github.io/HTML-and-CSS-Essentials-Portfolio-Project/)
-  All files used in the Tintoon website can be viewed in my Github repository [marbri-18/HTML-and-CSS-essentials-Portfolio-project](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project)
+  
+  All files used in the Tintoon website can be viewed in my [Github repository](https://github.com/marbri-18/HTML-and-CSS-Essentials-Portfolio-Project)
   
   ### Credits
   
